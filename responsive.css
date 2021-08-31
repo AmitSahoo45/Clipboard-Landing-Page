@@ -1,0 +1,263 @@
+:root {
+    --Strong-Cyan: hsl(171, 66%, 44%);
+    --Light-Blue: hsl(233, 100%, 69%);
+    --Dark-Grayish-Blue: hsl(210, 10%, 33%);
+    --Grayish-Blue: hsl(201, 11%, 66%);
+}
+
+
+@media (min-width: 100px) and (max-width: 1060px) {
+    .companies {
+        flex-wrap: wrap;
+        margin: 5rem 0rem;
+    }
+
+    .companies>img {
+        padding: 1.5rem;
+    }
+
+    .descrip-box {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .features-box>img {
+        height: 400px;
+    }
+
+    .access>img {
+        height: 410px;
+    }
+}
+
+
+@media (min-width: 100px) and (max-width: 770px) {
+    .features-box {
+        flex-direction: column;
+        justify-content: center;
+        margin: 0px;
+        max-width: 100vw;
+        padding: 2rem 0rem 1rem 0rem;
+    }
+
+    .features-box>img {
+        position: static;
+        top: 0rem;
+    }
+
+    .txt-f-box {
+        padding: 2rem 0rem 2rem 0rem;
+        text-align: center;
+    }
+
+    .extra-btn {
+        padding-bottom: 5rem;
+    }
+
+    footer {
+        padding-top: 30px;
+    }
+}
+
+@media (min-width: 100px) and (max-width: 650px) {
+    .footer-wrap {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .footer-logo img {
+        padding: 1rem;
+    }
+
+    .footer-item p {
+        text-align: center;
+        padding: 0.2rem;
+    }
+
+    .links {
+        padding: 1rem 0rem;
+    }
+
+    .access-txt {
+        padding: 1rem 0rem;
+    }
+
+    .access-txt>h2 {
+        font-size: 1.3rem;
+    }
+
+    .access-txt>p {
+        width: 350px;
+    }
+
+    .access>img {
+        height: 300px;
+    }
+}
+
+@media (min-width: 100px) and (max-width: 600px) {
+    .features-box>img {
+        height: 250px;
+    }
+
+    .snippets>p {
+        width: 300px;
+        font-size: 0.65rem;
+    }
+
+    .main-h>img {
+        height: 100px;
+    }
+
+    .main-h>h1 {
+        font-size: 1.2rem;
+    }
+
+    .main-h>p {
+        width: 300px;
+        font-size: 0.8rem;
+    }
+
+    .main-h>img {
+        height: 100px;
+    }
+
+    .btn {
+        font-size: 0.8rem;
+        padding: 0.5rem 1rem;
+        margin: 0rem 1rem;
+    }
+
+    .snippets>h2 {
+        padding-top: 2rem;
+        padding-bottom: 0.8rem;
+    }
+
+    .txt-f-box {
+        padding: 0rem;
+    }
+
+    .c-txt-box>h3 {
+        font-size: 1rem;
+        word-spacing: 2px;
+        padding: 1.2rem 0rem 0.2rem 0rem;
+    }
+
+    .c-txt-box>p {
+        width: 350px;
+        padding: 0.6rem 0rem 1.5rem 0rem;
+    }
+
+    .q-search {
+        padding-top: 2rem;
+    }
+
+    .apps>p{
+        width: 400px;
+    }
+}
+
+@media (min-width: 100px) and (max-width: 420px) {
+    .main-h>img {
+        height: 80px;
+    }
+
+    .main-h>h1 {
+        font-size: 1.06rem;
+    }
+
+    .main-h>p {
+        font-size: 00.8rem;
+        width: 200px;
+    }
+
+    .btn {
+        font-size: 0.7rem;
+        margin: 0.6rem 0.7rem;
+    }
+
+    .box-content {
+        margin: 1rem 0rem;
+    }
+
+    .snippets>h2 {
+        font-size: 1.2rem;
+        padding-top: 1rem;
+    }
+
+    .features-box>img {
+        height: 200px;
+    }
+
+    .c-txt-box>h3 {
+        padding: 0.8rem 0rem 0.2rem 0rem;
+    }
+
+    .c-txt-box>p {
+        width: 250px;
+        font-size: 0.8rem;
+        padding: 0.6rem 0rem 1rem 0rem;
+    }
+
+    .access-txt>h2 {
+        font-size: 1.2rem;
+    }
+
+    .access-txt>p {
+        width: 250px;
+        font-size: 0.8rem;
+    }
+
+    .access>img {
+        height: 250px;
+    }
+
+    .super-charge>h2 {
+        font-size: 1.15rem;
+    }
+
+    .super-charge>p {
+        font-size: 0.95rem;
+        margin: auto;
+        width: 250px;
+        text-align: center;
+    }
+
+    .apps>h2 {
+        font-size: 1.15rem;
+    }
+
+    .apps>p {
+        width: 250px;
+    }
+
+    .extra-btn {
+        padding-bottom: 3rem;
+    }
+
+    .companies {
+        margin: 3rem 0rem;
+    }
+}
+
+
+@media (min-width: 100px) and (max-width: 320px) {
+    .snippets>p {
+        width: 260px;
+    }
+
+    .access>img {
+        height: 240px;
+    }
+
+    .inside-d-box>p {
+        width: 250px;
+    }
+
+    .extra-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
